@@ -94,8 +94,7 @@
 
 
 
-import React, { useEffect, useState } from 'react'
-import useFetch from "react-fetch-hook";
+import  { useEffect, useState } from 'react';
 
 export default function RentalServices() {
 const url = 'https://jsonplaceholder.typicode.com/todos'

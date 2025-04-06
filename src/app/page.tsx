@@ -1,7 +1,7 @@
 "use client"
 import Breadcrum from "@/components/Home/Breadcrum";
 import ApexChart from "@/components/Home/Chart";
-import MyForm from "@/components/Home/MyForm";
+// import Test from "@/components/RentalServices/Test";
 
 
 
@@ -15,6 +15,7 @@ export default function Home() {
       {/* <p>hello</p> */}
        <Breadcrum/>
       <ApexChart/>
+      {/* <Test/> */}
     </div>
   );
 }

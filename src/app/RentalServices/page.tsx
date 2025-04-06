@@ -1,4 +1,4 @@
-import RentalServices from "@/components/RentalServices/RentalServices";
+
 import Test from "@/components/RentalServices/Test";
 
 export default function RentalServicesPage() {

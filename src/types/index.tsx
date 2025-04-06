@@ -5,20 +5,20 @@ export type SubmenuItem= {
 }
 
 export type navArrType={
-    id:Number
-    title:String
-    url:String
+    id:number
+    title:string
+    url:string
     submenu?: SubmenuItem[];
 }
 export type VenderIdType={
-    id:"String"
+    id:"string"
 }
 export type VenderTableArrType ={
     id:number
-    name:String
-    phone: String
-    email : String
+    name:string
+    phone: string
+    email : string
 }
 export type DetailsArrType={
-    id:String
+    id:string
 }

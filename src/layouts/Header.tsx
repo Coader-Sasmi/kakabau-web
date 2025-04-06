@@ -1,4 +1,4 @@
-import { navArr } from '@/utils'
+
 import React from 'react'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';

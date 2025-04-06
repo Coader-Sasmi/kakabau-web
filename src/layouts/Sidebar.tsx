@@ -1,15 +1,15 @@
+
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { logo } from '@/assets/Home'
 import { navArr } from '@/utils'
-import { useRouter } from "next/navigation";
 
 export default function Sidebar() {
-    const router = useRouter();
-    const [openMenu, setOpenMenu] = useState(null);
+    
+    const [openMenu, setOpenMenu] = useState<number | null>(null);
 
-    const toggleSubMenu = (id:any) => {
+    const toggleSubMenu = (id:number) => {
         setOpenMenu(openMenu === id ? null : id);
     };
 
@@ -31,15 +31,7 @@ export default function Sidebar() {
                                 <p className='text-[#cb3131] font-bold'>{item.title}</p>
                             </Link>
                         </span>
-                        {/* {item.submenu && openMenu === item.id && (
-                            <div className='pl-4 flex flex-col text-[#cb3131] '>
-                                {item.submenu.map((subitem) => (
-                                    <Link href={subitem.url} key={subitem.id.toString()} className=''>
-                                        <p className=' p-2 rounded-md border-[#cb3131]'>{subitem.title}</p>
-                                    </Link>
-                                ))}
-                            </div>
-                        )} */}
+                       
                     </div>
                 ))}
             </div>
