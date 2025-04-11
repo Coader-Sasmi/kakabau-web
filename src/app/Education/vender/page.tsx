@@ -1,10 +1,10 @@
-import Breadcrum from '@/components/Entertainment/Breadcrum'
+import EducationVender from '@/components/Education/EducationVender'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <Breadcrum/>
+      <EducationVender/>
     </div>
   )
 }

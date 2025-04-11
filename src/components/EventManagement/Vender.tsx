@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Breadcrum() {
+export default function Vender() {
   return (
     <div>
-      Entertainment
+      Event management vender
     </div>
   )
 }
