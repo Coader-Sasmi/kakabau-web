@@ -15,20 +15,7 @@ export const navArr:navArrType[]= [
         id: 1,
         title: 'Dashboard',
         url: '/Dashboard',
-        icon: <DashboardIcon />,
-        icons: <ArrowDropDownIcon />,
-        submenu: [
-            {
-                id: 101,
-                title: 'Vender',
-                url: '/Dashboard/vender'
-            },
-            {
-                id: 102,
-                title: 'Bookings',
-                url: '/Dashboard/bookings'
-            }
-        ]
+        icon: <DashboardIcon />
     },
     {
         id: 2,

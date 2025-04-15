@@ -21,7 +21,7 @@ export type navArrType = {
     id: number;
     title: string;
     url: string;
-    icon: ReactNode; // or JSX.Element depending on what you're rendering
+    icon: ReactNode; 
     icons?: ReactNode;
     submenu?: SubmenuItem[];
   };

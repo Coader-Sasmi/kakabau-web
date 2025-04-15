@@ -1,10 +1,10 @@
-import DashboardVender from '@/components/Dashboard/DashboardVender'
+import Breadcrum from '@/components/Dashboard/Breadcrum'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <DashboardVender/>
+      <Breadcrum/>
     </div>
   )
 }
